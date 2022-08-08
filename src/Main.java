@@ -15,7 +15,7 @@ public class Main {
         return -1;
     }
 
-    // Binary Search
+    // Binary Search (using recursion)
     public static int binarySearch(int[] arr, int first, int last, int key){
         if (last>=first){
             int mid = first + (last - first)/2;
@@ -74,7 +74,7 @@ public class Main {
                     System.out.println("\nElement is not present in list");
                 }
                 else {
-                    System.out.println("\nElement is present at index " + answer);
+                    System.out.println("\nElement is present at index: " + answer);
                 }
             }
             else if (searchOption == 2) {
