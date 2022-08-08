@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="created first layer skeleton of application">
+    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="completed linear search function">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -26,6 +27,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm"
   }
@@ -52,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659941420974</updated>
-      <workItem from="1659941422381" duration="2933000" />
+      <workItem from="1659941422381" duration="4247000" />
     </task>
     <task id="LOCAL-00001" summary="created application">
       <created>1659941457990</created>
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659942509763</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed linear search function">
+      <created>1659944671229</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659944671229</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created application" />
     <MESSAGE value="created first layer skeleton of application" />
-    <option name="LAST_COMMIT_MESSAGE" value="created first layer skeleton of application" />
+    <MESSAGE value="completed linear search function" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed linear search function" />
   </component>
 </project>

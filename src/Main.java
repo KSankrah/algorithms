@@ -6,9 +6,26 @@ public class Main {
     public static int linearSearch(int[] arr, int x) {
         int arrLength = arr.length;
 
+        // Loop through array to find a match for x
         for (int i = 0; i < arrLength; i++) {
             if (arr[i] == x) {
                 return i;
+            }
+        }
+        return -1;
+    }
+
+    // Binary Search
+    public static int binarySearch(int[] arr, int first, int last, int key){
+        if (last>=first){
+            int mid = first + (last - first)/2;
+            if (arr[mid] == key){
+                return mid;
+            }
+            if (arr[mid] > key){
+                return binarySearch(arr, first, mid-1, key); //search in left subarray
+            }else{
+                return binarySearch(arr, mid+1, last, key); //search in right subarray
             }
         }
         return -1;
@@ -22,8 +39,8 @@ public class Main {
                 =======================================
                 
                 What type of algorithm would you like to implement
-                ( 1 ) Search Algorithm
-                ( 2 ) Sorting Algorithm
+                ( 1 ) Search Algorithms
+                ( 2 ) Sorting Algorithms
                 
                 """);
         int algoOption = sc.nextInt();
@@ -34,7 +51,7 @@ public class Main {
                     ( 1 ) Linear Search
                     ( 2 ) Binary Search
                     """);
-            int searchOption =sc.nextInt();
+            int searchOption = sc.nextInt();
 
             if (searchOption == 1) {
                 System.out.println("\nEnter 10 numbers separated with ONLY a space");
@@ -59,6 +76,29 @@ public class Main {
                 else {
                     System.out.println("\nElement is present at index " + answer);
                 }
+            }
+            else if (searchOption == 2) {
+                System.out.println("\nEnter 10 numbers separated with ONLY a space");
+
+                int[] nums = new int[10];
+                int i;
+                int last = nums.length - 1;
+
+                // Loop to store input values in nums array
+                for (i = 0; i < nums.length; i++) {
+                    nums[i] = sc.nextInt();
+                }
+
+                System.out.println("\nEnter the number you want to search for");
+
+                int searchValue = sc.nextInt();
+
+                int answer = binarySearch(nums, 0, last, searchValue);
+
+                if (answer == -1)
+                    System.out.println("Element is not found!");
+                else
+                    System.out.println("Element is found at index: "+ answer);
             }
         }
         else if (algoOption == 2) {
