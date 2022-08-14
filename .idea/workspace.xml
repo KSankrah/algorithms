@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="added a few comments">
+    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="moved to switch case">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +62,7 @@
       <updated>1659941420974</updated>
       <workItem from="1659941422381" duration="6744000" />
       <workItem from="1660459446408" duration="675000" />
-      <workItem from="1660464108079" duration="346000" />
+      <workItem from="1660464108079" duration="3290000" />
     </task>
     <task id="LOCAL-00001" summary="created application">
       <created>1659941457990</created>
@@ -92,7 +99,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659946119091</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="placed program in a loop">
+      <created>1660464691508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660464691508</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added search and sort classes">
+      <created>1660465259470</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465259470</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added moved search functions to search class">
+      <created>1660465605837</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465605837</updated>
+    </task>
+    <task id="LOCAL-00009" summary="moved to switch case">
+      <created>1660467422086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660467422086</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +150,10 @@
     <MESSAGE value="completed linear search function" />
     <MESSAGE value="completed binary search function" />
     <MESSAGE value="added a few comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a few comments" />
+    <MESSAGE value="placed program in a loop" />
+    <MESSAGE value="added search and sort classes" />
+    <MESSAGE value="added moved search functions to search class" />
+    <MESSAGE value="moved to switch case" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved to switch case" />
   </component>
 </project>
