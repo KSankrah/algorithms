@@ -20,40 +20,33 @@ public class Main {
             int algoOption = sc.nextInt();
 
             switch (algoOption) {
-                case 1:
+                case 1 -> {
                     System.out.println("""
-                    Here are the available Search Algorithms.
-                    ( 1 ) Linear Search
-                    ( 2 ) Binary Search
-                    """);
+                            Here are the available Search Algorithms.
+                            ( 1 ) Linear Search
+                            ( 2 ) Binary Search
+                            """);
                     int searchOption = sc.nextInt();
-
                     switch (searchOption) {
-                        case 1:
+                        case 1 -> {
                             System.out.println("\nEnter 10 numbers separated with ONLY a space");
-
                             int[] nums = new int[10];
                             int i;
                             // Loop to store input values in nums array
                             for (i = 0; i < nums.length; i++) {
                                 nums[i] = sc.nextInt();
                             }
-
                             System.out.println("\nEnter the number you want to search for");
-
                             int searchValue = sc.nextInt();
                             int answer = Search.linearSearch(nums, searchValue);
-
-                            if ( answer == -1) {
+                            if (answer == -1) {
                                 System.out.println("\nElement is not present in list");
-                            }
-                            else {
+                            } else {
                                 System.out.println("\nElement is present at index: " + answer);
                             }
-                            break;
-                        case 2:
+                        }
+                        case 2 -> {
                             System.out.println("\nEnter 10 numbers separated with ONLY a space");
-
                             int[] numbers = new int[10];
                             int j;
                             int last = numbers.length - 1;
@@ -62,67 +55,41 @@ public class Main {
                             for (j = 0; j < numbers.length; j++) {
                                 numbers[j] = sc.nextInt();
                             }
-
                             System.out.println("\nEnter the number you want to search for");
-
                             int searchKey = sc.nextInt();
-
                             int result = Search.binarySearch(numbers, 0, last, searchKey);
-
                             if (result == -1)
                                 System.out.println("Element is not found!");
                             else
-                                System.out.println("Element is found at index: "+ result);
-
-                            break;
-
-                        default:
-                            System.out.println("You did not enter a valid input.");
+                                System.out.println("Element is found at index: " + result);
+                        }
+                        default -> System.out.println("You did not enter a valid input.");
                     }
-                    break;
-
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("""
-                    Here are the available Sorting Algorithms
-                    
-                    ( 1 ) Heap Sort
-                    ( 2 ) Merge Sort
-                    ( 3 ) Radix Sort
-                    ( 4 ) Quick Sort
-                    ( 5 ) Bubble Sort
-                    ( 6 ) Insertion Sort
-                    ( 7 ) Selection Sort
-                    """);
-
+                            Here are the available Sorting Algorithms
+                                                
+                            ( 1 ) Heap Sort
+                            ( 2 ) Merge Sort
+                            ( 3 ) Radix Sort
+                            ( 4 ) Quick Sort
+                            ( 5 ) Bubble Sort
+                            ( 6 ) Insertion Sort
+                            ( 7 ) Selection Sort
+                            """);
                     int sortOption = sc.nextInt();
                     switch (sortOption) {
-                        case 1:
-                            System.out.println("Heap Sort!");
-                            break;
-                        case 2:
-                            System.out.println("Merge Sort!");
-                            break;
-                        case 3:
-                            System.out.println("Radix Sort!");
-                            break;
-                        case 4:
-                            System.out.println("Quick Sort!");
-                            break;
-                        case 5:
-                            System.out.println("Bubble Sort!");
-                            break;
-                        case 6:
-                            System.out.println("Insertion Sort!");
-                            break;
-                        case 7:
-                            System.out.println("Selection Sort!");
-                            break;
+                        case 1 -> System.out.println("Heap Sort!");
+                        case 2 -> System.out.println("Merge Sort!");
+                        case 3 -> System.out.println("Radix Sort!");
+                        case 4 -> System.out.println("Quick Sort!");
+                        case 5 -> System.out.println("Bubble Sort!");
+                        case 6 -> System.out.println("Insertion Sort!");
+                        case 7 -> System.out.println("Selection Sort!");
                     }
-                    break;
-
-                default:
-                    System.out.println("Enter a valid input");
-
+                }
+                default -> System.out.println("Enter a valid input");
             }
 
 
