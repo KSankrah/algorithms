@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="completed binary search function" />
+    <list default="true" id="5b499962-a244-4bfe-9c79-7fe78dfa4e0a" name="Changes" comment="added a few comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,15 +22,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -50,7 +53,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659941420974</updated>
-      <workItem from="1659941422381" duration="4587000" />
+      <workItem from="1659941422381" duration="6744000" />
+      <workItem from="1660459446408" duration="675000" />
+      <workItem from="1660464108079" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="created application">
       <created>1659941457990</created>
@@ -80,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659946015803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a few comments">
+      <created>1659946119091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659946119091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,7 @@
     <MESSAGE value="created first layer skeleton of application" />
     <MESSAGE value="completed linear search function" />
     <MESSAGE value="completed binary search function" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed binary search function" />
+    <MESSAGE value="added a few comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a few comments" />
   </component>
 </project>
